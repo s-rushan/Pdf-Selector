@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select PDF Language</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="w-full max-w-md mx-auto bg-white rounded-xl shadow-lg p-8 m-4 text-center">
+        
+        <!-- Header Section -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">Choose Your Language</h1>
+            <p class="text-gray-500">Please select a language to view the document.</p>
+        </div>
+
+        <!-- Language Selection Buttons -->
+        <div class="space-y-4">
+            
+            <!-- Button 1: English -->
+            <!-- IMPORTANT: Replace 'URL_TO_YOUR_ENGLISH_PDF.pdf' with the actual URL of your English PDF -->
+            <a href="https://drive.google.com/file/d/1qjoI4wuTwvJ0g0Jej6NWOk83kvmyXz6Q/view?usp=sharing" 
+               target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                English
+            </a>
+            
+            <!-- Button 2: Language Two -->
+            <!-- IMPORTANT: Replace 'URL_TO_YOUR_SECOND_LANGUAGE_PDF.pdf' with the actual URL -->
+            <a href="https://drive.google.com/file/d/1hbvWefGS6Nea-94Awvbyqo3UgoQn6oHC/view?usp=sharing" 
+               target="_blank" 
+               class="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Hindi <!-- Example: Spanish -->
+            </a>
+            
+            <!-- Button 3: Language Three -->
+            <!-- IMPORTANT: Replace 'URL_TO_YOUR_THIRD_LANGUAGE_PDF.pdf' with the actual URL -->
+            <a href="URL_TO_YOUR_THIRD_LANGUAGE_PDF.pdf" 
+               target="_blank" 
+               class="block w-full bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Gujarati <!-- Example: French -->
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8">
+            <p class="text-sm text-gray-400">Scanning a QR code brought you here.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
